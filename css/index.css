@@ -6,6 +6,10 @@
   display: flex;
   width: max-content;
   margin: 0 auto;
+  padding-left:0;
+}
+.nav ul li{
+  list-style:none;
 }
 .nav ul li a{
   display: flex;
