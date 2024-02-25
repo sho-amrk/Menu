@@ -25,3 +25,8 @@
 .nav ul li a:hover{
   background-color: #cc0000;
 }
+.conteiner{
+  margin: 0 auto; /* 中央寄せ */
+  display: flex;
+  border: 1px solid #000; /* 枠線あり */
+}
