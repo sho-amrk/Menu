@@ -28,7 +28,7 @@
 }
 .conteiner{
   display:flex;
-  width: max-content;
+  width: 100vw;
   flex-direction: column; /* 縦方向に並べる */
   margin: 0 auto; /* 中央寄せ */
   width: max-content;
