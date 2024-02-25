@@ -43,7 +43,7 @@
 
 @media screen and (max-width: 480px) {
  .content img{
-  width: 100px;
-  height: 50px;
+  width: 150px;
+  height: auto;
  }
 }
