@@ -37,7 +37,7 @@
   border: 1px solid black; /* 枠線あり */
 }
 .content .ContentName{
-  margin: 0 auto; /* 中央寄せ */
+  text-align: center; /* 中央寄せ */
 }
 .content img{
   margin: 0 auto; /* 中央寄せ */
