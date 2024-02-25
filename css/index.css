@@ -27,7 +27,10 @@
   background-color: #cc0000;
 }
 .conteiner{
+  display:flex;
+  flex-direction: column; /* 縦方向に並べる */
   margin: 0 auto; /* 中央寄せ */
+  width: max-content;
   border: 1px solid #000; /* 枠線あり */
 }
 img{
