@@ -34,7 +34,7 @@
 }
 .content{
   margin: 0 auto; /* 中央寄せ */
-  /*border: 1px solid #000;*/ /* 枠線あり */
+  border: 1px solid red; /* 枠線あり */
 }
 img{
   margin: 0 auto; /* 中央寄せ */
