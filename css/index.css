@@ -36,19 +36,14 @@
   width: 100%; /* 画面の幅の100%に設定 */
   border: 1px solid black; /* 枠線あり */
 }
-.content a{
-  text-align: center; /* 中央寄せ */
-}
-.content img{
-  margin: 0 auto; /* 中央寄せ */
-  max-width: 100%;
-  height: auto;
-}
 
 @media screen and (max-width: 768px) {
 
 }
 
 @media screen and (max-width: 480px) {
-
+ .content img{
+  width: 100px;
+  height: 50px;
+ }
 }
