@@ -30,3 +30,11 @@
   display: flex;
   border: 1px solid #000; /* 枠線あり */
 }
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 480px) {
+
+}
