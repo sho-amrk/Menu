@@ -1,13 +1,13 @@
 .nav{
   background-color: black;
   overflow: auto;
+  overflow-y: scroll; /* 縦方向にスクロールバーを表示 */
 }
 .nav ul{
   display: flex;
   width: max-content;
   margin: 0 auto;
   padding-left:0;
-  overflow-y: scroll; /* 縦方向にスクロールバーを表示 */
 }
 .nav ul li{
   list-style:none;
