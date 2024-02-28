@@ -45,6 +45,6 @@
 @media screen and (max-width: 480px) {
  .content img{
   width: 200px;
-  height: auto;
+  height: 150px;
  }
 }
