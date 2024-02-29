@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     menu.addEventListener('click', function(event) {
         if (event.target.tagName === 'LI') {
-            const keyword = event.target.dataset.value;
+            const keyword = event.target.textContent;
             window.alert('テスト');
             window.alert(keyword);
             searchCSV(keyword);
