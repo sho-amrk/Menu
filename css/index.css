@@ -12,6 +12,7 @@
 .nav ul li{
   list-style:none;
 }
+/*
 .nav ul li a{
   display: flex;
   align-items: center;
@@ -26,6 +27,7 @@
 .nav ul li a:hover{
   background-color: #cc0000;
 }
+*/
 .conteiner{
   display:flex;
   flex-direction: column; /* 縦方向に並べる */
