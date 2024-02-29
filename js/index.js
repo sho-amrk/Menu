@@ -1,14 +1,14 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const nav = document.getElementsByClassName('list');
+    const lists = document.getElementsByClassName('list');
     const conteiner = document.getElementsByClassName('conteiner');
 
-    nav.addEventListener('click', function(event) {
-        if (event.target.tagName === 'LI') {
+    lists.forEach(li => {
+        li.addEventListener('click', function(event) {
             const keyword = event.target.dataset.search;
             window.alert('テスト');
             window.alert(keyword);
             searchCSV(keyword);
-        }
+        });
     });
 
     function searchCSV(keyword) {
