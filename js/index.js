@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const nav = document.getElementById('list');
-    const conteiner = document.getElementById('conteiner');
+    const nav = document.getElementsByClassName('list');
+    const conteiner = document.getElementsByClassName('conteiner');
 
     nav.addEventListener('click', function(event) {
         if (event.target.tagName === 'LI') {
