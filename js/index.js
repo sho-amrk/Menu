@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const nav = document.getElementById('nav');
+    const nav = document.getElementById('list');
     const conteiner = document.getElementById('conteiner');
 
     nav.addEventListener('click', function(event) {
