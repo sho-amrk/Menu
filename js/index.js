@@ -5,6 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
     nav.addEventListener('click', function(event) {
         if (event.target.tagName === 'LI') {
             const keyword = event.target.dataset.search;
+            window.alert('テスト');
+            window.alert(keyword);
             searchCSV(keyword);
         }
     });
