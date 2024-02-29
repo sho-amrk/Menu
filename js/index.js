@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const lists = document.getElementsByClassName('list');
+    const lists = document.querySelectorAll('li.list');
     const conteiner = document.getElementsByClassName('conteiner');
 
     lists.forEach(li => {
