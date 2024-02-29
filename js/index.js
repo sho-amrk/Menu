@@ -5,8 +5,6 @@ document.addEventListener('DOMContentLoaded', function() {
     menu.addEventListener('click', function(event) {
         if (event.target.tagName === 'LI') {
             const keyword = event.target.textContent;
-            window.alert('テスト');
-            window.alert(keyword);
             searchCSV(keyword);
         }
     });
@@ -32,6 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function displayResult(data) {
+        window.alert(data[2]);
         if (!data) {
             conteiner.innerHTML = '該当するデータが見つかりませんでした。';
             return;
