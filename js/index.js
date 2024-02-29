@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
         xhr.send();
     }
 
-    function searchCSV(csvData, keyword) {
+    function parseCSV(csvData, keyword) {
         const rows = csvData.split('\n');
         const result = rows.find(row => row.startsWith(keyword));
         return result ? result.split(',') : null;
